@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "665e5984dad7ebb462cdafc7",
+    "categoryName": "Sofa",
+    "img": "https://i.ibb.co/JxQd7dx/category-5.jpg"
+  },
+  {
+    "_id": "665e5984dad7ebb462cdafc8",
+    "categoryName": "Bed",
+    "img": "https://i.ibb.co/WDr9f5r/category-2.jpg"
+  },
+  {
+    "_id": "665e5984dad7ebb462cdafc9",
+    "categoryName": "Luxury",
+    "img": "https://i.ibb.co/5RjtfNG/category-4.jpg"
+  },
+  {
+    "_id": "665e5984dad7ebb462cdafca",
+    "categoryName": "T-Shirts",
+    "img": "https://i.ibb.co/YkxdXbg/product3.jpg"
+  },
+  {
+    "_id": "665e5984dad7ebb462cdafcb",
+    "categoryName": "Goods",
+    "img": "https://i.ibb.co/pyR9fYy/category-1.jpg"
+  },
+  {
+    "_id": "665e5984dad7ebb462cdafcc",
+    "categoryName": "Decor",
+    "img": "https://i.ibb.co/thv3g3C/category-6.jpg"
+  }
+]
