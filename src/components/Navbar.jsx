@@ -11,7 +11,7 @@ const Navbar = ({ setSearchText, searchText }) => {
   const navigate = useNavigate();
   const [userData2, setUserData2] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/users/${user?.email}`)
+    fetch(`https://final-project-five-lovat.vercel.app/users/${user?.email}`)
       .then((res) => res.json())
       .then((data) => {
         setUserData2(data);

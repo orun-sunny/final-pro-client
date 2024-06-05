@@ -8,7 +8,7 @@ function FlashSale() {
   const [products, setProducts] = useState([]);
   const { isEmpty } = useFunction();
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://final-project-five-lovat.vercel.app/products")
       .then((res) => res.json())
       .then((data) => {
         data.reverse();

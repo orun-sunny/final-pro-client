@@ -8,7 +8,7 @@ function EditProduct() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://final-project-five-lovat.vercel.app/products/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -41,7 +41,7 @@ function EditProduct() {
       mainImage: { url: data.mainImage, alt: data.name },
     };
     console.log(newData);
-    fetch(`http://localhost:5000/${product?._id}`, {
+    fetch(`https://final-project-five-lovat.vercel.app/${product?._id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

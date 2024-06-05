@@ -9,7 +9,7 @@ function AllProduct() {
   const [products, setProducts] = useState([]);
   const { isEmpty } = useFunction();
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://final-project-five-lovat.vercel.app/products")
       .then((res) => res.json())
       .then((data) => {
         data.reverse();
@@ -18,7 +18,7 @@ function AllProduct() {
   }, []);
   const handleDelete = (id) => {
     const token = localStorage.getItem("token");
-    fetch(`http://localhost:5000/${id}`, {
+    fetch(`https://final-project-five-lovat.vercel.app/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

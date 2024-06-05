@@ -12,7 +12,7 @@ function ProductDetails() {
     (product?.price * product?.discount) / 100
   ).toFixed(2);
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://final-project-five-lovat.vercel.app/products/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);

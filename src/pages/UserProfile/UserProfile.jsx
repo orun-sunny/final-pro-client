@@ -20,7 +20,7 @@ function UserProfile() {
       address: formData.get("address"),
       img: formData.get("img"),
     };
-    fetch(`http://localhost:5000/users/${user?.email}`, {
+    fetch(`https://final-project-five-lovat.vercel.app/users/${user?.email}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -36,7 +36,7 @@ function UserProfile() {
       });
   };
   useEffect(() => {
-    fetch(`http://localhost:5000/users/${user?.email}`)
+    fetch(`https://final-project-five-lovat.vercel.app/users/${user?.email}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

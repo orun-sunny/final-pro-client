@@ -31,7 +31,7 @@ function AddProduct() {
       addedBy: user?.email,
     };
     console.log(newData);
-    fetch("http://localhost:5000/products", {
+    fetch("https://final-project-five-lovat.vercel.app/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

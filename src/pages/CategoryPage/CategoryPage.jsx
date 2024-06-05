@@ -7,7 +7,7 @@ function CategoryPage() {
   const [allCategories, setAllCategories] = useState([]);
   const { isEmpty } = useFunction();
   useEffect(() => {
-    fetch("http://localhost:5000/categories")
+    fetch("https://final-project-five-lovat.vercel.app/categories")
       .then((res) => res.json())
       .then((data) => setAllCategories(data));
   }, []);
