@@ -31,6 +31,7 @@ function AddProduct() {
       addedBy: user?.email,
     };
     console.log(newData);
+    //data
     fetch("https://final-project-five-lovat.vercel.app/products", {
       method: "POST",
       headers: {
@@ -47,7 +48,7 @@ function AddProduct() {
       });
   };
   return (
-    <div className="my-6 ">
+    <div className="my-7 ">
       <h2 className="text-2xl font-bold text-black uppercase">Add Product</h2>
       <div>
         <form onSubmit={handleSubmit}>

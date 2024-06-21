@@ -6,6 +6,7 @@ import CategoriesCard from "../Home/CategoriesCard";
 function CategoryPage() {
   const [allCategories, setAllCategories] = useState([]);
   const { isEmpty } = useFunction();
+  //data
   useEffect(() => {
     fetch("https://final-project-five-lovat.vercel.app/categories")
       .then((res) => res.json())
